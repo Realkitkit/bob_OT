@@ -1,0 +1,6 @@
+a.out : sum-nbo.o
+gcc -o a.out sum-nbo.o
+
+sum-nbo.o : sum-nbo.cpp
+gcc -c sum-nbo.o sum-nbo.cpp 
+
